@@ -40,7 +40,7 @@
 		}
 
   	.tasklist button {
-    	margin: 2px 1px;
+    	margin: 0px 1px;
     	border-radius: 3px;
     	color: if($light-panel == 'false', $dark_fg_color, $fg_color);
     	border: 1px solid if($light-panel == 'false', $dark_borders_color, $borders_color);
