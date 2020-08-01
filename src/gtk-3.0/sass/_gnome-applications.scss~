@@ -41,6 +41,26 @@
       border-color: $backdrop_borders_color;
     }
   }
+
+
+  // Nautilus desktop icons for Nautilus 3.26 actually
+  @else {
+    .nautilus-desktop.nautilus-canvas-item {
+      color: $selected_fg_color;
+      text-shadow: 1px 1px black;
+
+      &:active,
+      &:hover,
+      &:selected {
+        color: $selected_fg_color;
+        text-shadow: none;
+      }
+
+      &:selected:backdrop {
+        color: $backdrop_fg_color;
+      }
+    }
+  }
 }
 
 // disk space piechart
